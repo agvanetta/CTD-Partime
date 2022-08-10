@@ -1,0 +1,172 @@
+.detallecuenta{
+    margin-right: 30px;
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.087);
+    padding-bottom: 15px;
+}
+
+.detallecuenta__aliquidar{
+    display: flex;
+    font-size: 12px;
+    color:#949191;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.263);
+
+}
+
+.detallecuenta__barra{
+    position: relative;
+    margin-left: -14px;
+    width: 359px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.263);
+}
+
+.detallecuenta__buttons{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around
+}
+
+.detallecuenta__buttons div{
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 7px 30px;
+    color: #009ee3;
+    background-color:rgba(71,154,209,.15) ;
+}
+
+.detallecuenta__buttons div:hover{
+    transition: .2s;
+    background-color:rgba(71, 154, 209, 0.357) ;
+}
+
+.detallecuenta__container__top{
+    cursor: pointer;
+    padding: 15px 20px 0 15px;
+}
+
+.detallecuenta__container__mid{
+    cursor: pointer;
+    padding: 0px 20px 0 15px;
+}
+
+.detallecuenta__container__bot{
+    padding: 0px 10px;
+}
+
+.detallecuenta__container__top:hover{
+    transition: .2s;
+    background-color: #f5f5f5;
+}
+
+.detallecuenta__container__mid:hover{
+    transition: .2s;
+    background-color: #f5f5f5;
+}
+
+.detallecuenta__dinero{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px 0 0px;
+    align-items: center;
+}
+
+.detallecuenta__dinero__numeros{
+    align-items: center;
+    display: flex;
+}
+
+.detallecuenta__dinero__numeros__1{
+    padding-right: 4px;
+    font-size: 22px;
+    font-weight: 600;
+    width: 77px;
+}
+
+.detallecuenta__dinero__numeros__2{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 16px;
+}
+
+.detallecuenta__dinero__numeros__icon{
+    font-size: 26px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.detallecuenta__disponible{
+    display: flex;
+    justify-content: space-between;
+    color: #949191;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.detallecuenta__disponible span{
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(71,154,209,.15);
+    color:#009ee3 ;
+}
+
+.detallecuenta__rendimientos__numeros{
+    display: flex;
+    align-items: center;
+}
+
+.detallecuenta__rendimientos__numeros div{
+    padding: 0 4px;
+    font-size: 11px;
+}
+
+.detallecuenta__rendimientos__numeros span{
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgb(71,154,209,.15);
+    color:#009ee3 ;
+}
+
+.detallecuenta__rendimientos{
+    justify-content: space-between;
+    padding: 20px 0;
+    display: flex;
+}
+
+.detallecuenta__rendimientos__detalle{
+    font-size: 13px;
+    color: #333;
+}
+
+.none{
+    display: none;
+}
+
+@media screen and (max-width:900px){
+    .detallecuenta{
+        width: unset;
+    }
+    .inicio__left{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .detallecuenta{
+        margin-right: 0px;
+        width: unset;
+    }
+    .inicio__left{
+        width: 90%;
+    }
+}
+    

@@ -1,0 +1,4 @@
+.paymentBack > div > div{
+    -webkit-transform: rotateY(180deg)!important ;
+    transform: rotateY(180deg) !important;
+}

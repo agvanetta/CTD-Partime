@@ -1,0 +1,112 @@
+.tuPerfil{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    align-items: center;
+}
+
+.tuPerfil__blockTop{
+    margin-top: 60px;
+    display: flex;
+    width: 700px;
+    background-color: white;
+    padding: 25px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 15%);
+    margin-bottom: 30px;
+}
+
+.tuPerfil__blockTop__dates{
+    margin-left: 20px;
+}
+
+.tuPerfil__blockTop__dates h2{
+    font-weight: 700;
+    font-size: 25px
+}
+
+.tuPerfil__blockTop__dates div{
+    font-size: 15px
+}
+
+.tuPerfil__imgProfile{
+    margin:0px;
+    height: 60px;
+    border-radius: 50px;
+    border: 3px solid #009ee3;
+}
+
+.tuPerfil__blockBot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 700px;
+    margin-bottom: 50px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 15%);
+    border-radius: 5px;
+}
+
+#tuPerfil__lastBlock{
+    border-bottom: 0px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.tuPerfil__blockBot__sections{
+    display: flex;
+    width: 90%;
+    margin-top: 10px;
+    padding: 15px 0px;
+    border-bottom: 2px solid rgb(235, 233, 233);
+    cursor: pointer;
+}
+
+.tuPerfil__blockBot__sections span{
+    color: rgb(177, 172, 172);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.andes-list__item-asset{
+    width: 9%;
+    border-radius: 100px;
+    border: 1px solid rgb(226, 223, 223);
+}
+.andes-thumbnail--56 {
+    margin-top: 9px;
+    height: 34px;
+    width: 55px;
+}
+.andes-thumbnail-container .andes-thumbnail path {
+    fill: #009ee3;
+}
+
+.tuPerfil__blockBot__sections__text{
+    width: 85%;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.tuPerfil__blockBot__sections__text h4{
+    font-size: 15px;
+    color: gray;
+}
+
+.tuPerfil__blockBot__sections__text h3{
+    font-size: 17px;
+}
+
+@media screen and (max-width: 996px) {
+    .tuPerfil{
+        margin-left: 0px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+.recomenda{
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
+    display: flex;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.087);
+    margin: 25px 30px 20px 0px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.recomenda:hover{
+    transition: .2s;
+    background-color: #f5f5f5;
+}
+
+.recomenda span{
+    font-size: 14px;
+    background-color: #009ee3;
+    color: white;
+    border-radius: 100px;
+    padding: 11px 11px 8px 11px;
+}
+
+.recomenda div{
+    color: #333;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .recomenda, .botonarrepentimiento{
+        margin: 20px 0px;
+    }
+}

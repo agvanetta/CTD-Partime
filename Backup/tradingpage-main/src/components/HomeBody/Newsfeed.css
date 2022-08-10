@@ -1,0 +1,117 @@
+.newsfeed{
+    flex: 0.7;
+    color: white;
+}
+
+.newsfeed__container{
+    width: 85%;
+}
+
+.newsfeed__chartSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsfeed__details{
+    display: flex;
+}
+
+.newsfeed__portfolio{
+    text-align: left;
+}
+
+.newsfeed__portfolio h1{
+    width:200px;
+    margin: 0;
+}
+
+.newsfeed__portfolio p{
+    margin-top: 0;
+}
+
+.newsfeed__buying__section{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #3b4754;
+    padding: 20px 0;
+}
+
+.newsfeed__market__section{
+    margin-top: 60px;
+    
+}
+
+.newsfeed__market__box{
+    padding: 20px;
+    border: 1px solid #31363A;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.newsfeed__market__box p {
+    color:#7B858A;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.newsfeed__market__box h1 {
+    border-top: 1px solid #31363A;
+    padding: 20px 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.newsfeed__market__box h1:hover {
+    color:rgb(29, 185, 84);
+    transition: .5s;
+}
+
+.newsfeed__market__box h2{
+    display: flex;
+    font-size: 10px;
+    color:#7B858A;
+    justify-content: right;
+}
+
+.newsfeed__market__box h2:hover{
+    color: azure;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.newsfeed__chart{
+    width: 100%;
+}
+
+#news__feed__svg{
+    margin: 13px 10px 10px 30px;
+    cursor: pointer;
+}
+
+#news__feed__svg:hover{
+    color: chartreuse;
+}
+
+.newsfeed__eye__button{
+    background-color: unset;
+    border: 0;
+    color: white;
+}
+
+/* Responsive 
+ 480px Maxima de celulares (600)
+ 481 - 768 tablet
+ 769-1200px Monitores*/ 
+ 
+ @media screen and (max-width: 768px) {
+    .newsfeed{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+ }

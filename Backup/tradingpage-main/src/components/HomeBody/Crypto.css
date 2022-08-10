@@ -1,0 +1,46 @@
+.crypto{
+    background-color: #212529;
+    margin-top: 50px;
+    width: 80%;
+    border: 1px solid #42494D;
+    border-radius: 3px;
+}
+.crypto__title2{
+    color: white;
+    font-size: 14px;
+    display: flex;
+    padding: 0px 0px 10px 20px;
+    border-bottom: 1px solid #42494D;
+}
+
+.crypto__title{
+    color:white;
+    text-align: start;
+    font-size: 30px;
+    display: flex;
+    padding: 10px 17px;
+}
+
+.crypto__title span{
+    color:rgb(29, 185, 84);
+    padding-right: 10px;
+}
+
+.crypto__widgets{
+    background-color: #212529;
+}
+
+/* Responsive 
+ 480px Maxima de celulares (600)
+ 481 - 768 tablet
+ 769-1200px Monitores*/ 
+ 
+ @media screen and (max-width: 768px) {
+    .crypto__title{
+        font-size: 20px;
+    }
+    .crypto__title2{
+        text-align: start;
+        padding-left: 17px;
+    }
+ }

@@ -1,0 +1,198 @@
+.account{
+    color: white;
+    margin-top: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account__banner{
+    padding: 1px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.57);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.account__banner__img{
+    border-radius: 10px;
+    border-radius: 5px;
+    height: 200px;
+    mask-image: linear-gradient(to right, transparent 1%, #0f100f 50%);
+}
+
+.account__container{
+    margin-top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.57);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account__container__dates{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.account__container__dates div{
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.57);
+    width: 40%;
+}
+
+.account__container__dates div:hover{
+    border: 1px solid white;
+}
+
+.account__container__edit{
+    border-radius: 10px;
+    width: 95%;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.57);
+}
+
+.account__container__edit:hover{
+    border: 1px solid white;
+}
+.account__container__edit div{
+    margin: 0px 30px;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.account__container__edit button{
+    margin: 0px 30px;
+    padding: 20px 30px;
+    background-color: unset;
+    color: white;
+    border: unset;
+    cursor: pointer;
+}
+
+.account__container__title{
+    width: 100%;
+    margin-left: 70px;
+    color: #5AC53B;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.account__dates{
+    border-radius: 10px;
+    margin-right: -10px;
+    width: 50%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #0f100f;
+     /* Degrade */
+     mask-image: linear-gradient(to left, transparent 1%, #0f100f 20%);
+}
+
+.account__dates h2{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.account__dates h2 span{
+    color: #5AC53B;
+
+}
+
+.account__dates div{
+    font-size: 20px;
+}
+
+.account__dates div span{
+    font-weight: 600;
+}
+.account__dates__img{
+    margin: 0px 30px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border: 2px solid #5AC53B;
+}
+
+.account__edit{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 20px;
+}
+
+
+.account__edit form p{
+    padding: 5px 0;
+}
+
+.account__edit form p input{
+    color:white;
+    background-color: unset;
+    height: 25px;
+    width: 250px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: 0;
+}
+
+.account__edit_button{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.button__enviar{
+    align-items: right;
+    margin-top: 5px;
+    margin-right: 40px;
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.button__enviar:hover{
+    background-color: rgb(80, 222, 23);
+    color: black;
+    transition: .5s;
+}
+
+
+
+@media screen and (max-width: 1273px) {
+    .account__banner__img{
+        display: none;
+    }
+    .account__container__dates{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .account__container__dates div{
+        margin-bottom: 20px;
+        width: 75%;
+    }
+    .account__dates{
+        flex-direction: column;
+        width: 100%;
+        mask-image: unset;
+        padding: 10px 0;
+    }
+    .account{
+        background-color: #0f100f;
+    }
+}

@@ -1,0 +1,25 @@
+.carousel-control-next span{
+    background-color: white;
+    padding: 20px 0 20px 40px;
+    border-radius: 300px;
+    margin-left: -15px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+    color: red;
+    background-color: red;
+}
+
+
+a.carousel-control-next{
+    opacity: unset;
+    
+}
+
+span.carousel-control-next-icon{
+    background-color: #009ee3;
+    color: #009ee3;
+}
+
+span.visually-hidden{
+    background-color: #009ee3;
+    color: #009ee3;
+}

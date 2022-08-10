@@ -1,0 +1,141 @@
+.sidebar{
+    color: white;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.405);
+    height: 100vh;
+    position: fixed;
+}
+
+#styleClick{
+    color:#008ad6;
+    border-left:4.5px solid #008ad6;
+    padding-left: 25px;
+}
+
+.sidebar__border{
+    margin: 0px 0 0px 24px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.263);
+}
+
+.sidebar__icons{
+    font-size: 20px;
+    padding-right: 15px;
+    display: flex;
+}
+
+.sidebar__left{
+    /* position: fixed; */
+    position: absolute;
+    height: 65px;
+    justify-content: center;
+    z-index: 60;
+    background-color:  #008ad6;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+.sidebar__left__img{
+    display: flex;
+    border: 3px solid rgba(245, 245, 245, 0.576);
+    border-radius: 50px;
+}
+
+.sidebar__left__imgProfile{
+    cursor: pointer;
+    margin:0px;
+    height: 40px;
+    border-radius: 50px;
+    border: 3px solid #009ee3;
+}
+
+.sidebar__left__text{
+    padding: 0px 10px 0 10px;
+    text-align: start;
+}
+
+.sidebar__left__text p{
+    margin: 0;
+    padding-bottom: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 2px;
+}
+
+.sidebar__left__text div{
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    padding: 2px 0 2px 4px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.sidebar__left__text div:hover{
+    background-color: #009ee3;
+
+}
+
+.sidebar__mainpanel__container{
+    margin-top: 65px;
+    position: relative;
+    width: 260px;
+    background-color: #f5f5f5;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__mainpanel{
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 0;
+}
+
+.sidebar__mainpanel__options{
+    width: 89%;
+    display: flex;
+    align-items: center;
+    padding: 15px 0 15px 30px;
+    color: #575555;
+    cursor: pointer; 
+    text-align: start;
+}
+
+.links:hover{
+    background-color: rgba(234, 234, 234, 0.515);
+    transition: .1s;
+}
+
+#sidebar__mainpanel__lastOption{
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+#sidebar__mainpanel__lastOption p{
+    margin: 0;
+    color: #009ee3;
+}
+
+.links{
+    width: 100%;
+    text-decoration: none;
+}
+
+    /* border-left-style: solid; */
+
+
+@media screen and (max-width: 996px) {
+    .sidebar{
+        display: none;
+    }
+}

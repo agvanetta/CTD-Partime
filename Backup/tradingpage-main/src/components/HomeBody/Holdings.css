@@ -1,0 +1,11 @@
+.holdings{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.holdings__container{
+    border: 1px solid #31363A;
+    height: 800px; 
+    width: 80%
+}

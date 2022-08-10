@@ -1,0 +1,126 @@
+.header{
+    background-color:#009ee3;
+    display: flex;
+    height: 65px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+    color: white;
+    float: right;   
+    flex-direction: column;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    justify-content: center;
+    position: fixed;
+}
+
+.header__right{
+    display: flex;
+    padding: 0 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__right p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header__right div{
+    cursor: pointer;
+}
+
+.header__right__moreinfo{
+    box-shadow:  .2px 2px 0 rgb(0 0 0 / 32%);
+    width: 419px;
+    color: black;
+    border-radius: 7px;
+    background-color: white;
+    margin-top: 40px;
+    display: flex;
+    right: 43px;
+    top: 5px;
+    flex-direction: column;
+}
+
+.header__right__moreinfo__1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #009fe300;
+    color: white;
+    margin-bottom: 0;
+}
+
+.header__right__moreinfo__1 span{
+    margin-bottom: -12px;
+    font-size: 20px;
+    margin-right: -3px;
+}
+
+.header__right__moreinfo__2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ededed;
+    padding: 0 20px;
+    line-height: 40px;
+    color: #333;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.header__right__moreinfo__2 span{
+    font-size: 20px;
+}
+
+.header__right__moreinfo__3{
+    justify-content: center;
+    padding: 24px 16px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__right__moreinfo__3 h2{
+    text-align: start;
+    font-size: 19px;
+    color: #333;
+    font-weight: 500;
+}
+
+.header__right__moreinfo__3 p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #999;
+}
+
+.header__right__moreinfo__img{
+    padding-right: 30px;
+    width: 80px;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+
+.header__notification{
+    position: absolute;
+    right: 0;
+    font-size: 11px;
+    padding: 0px 6px;
+    border-radius: 50px;
+    background-color: red;
+    margin-right: 35px;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 996px) {
+    .header{
+        width: 100%;
+        margin-left: unset;
+    }
+    .header__right__moreinfo{
+        width: 350px;
+    }
+}

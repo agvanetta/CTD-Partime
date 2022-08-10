@@ -1,0 +1,88 @@
+.ayuda{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.ayuda__container{
+    width: 60%;
+}
+
+.ayuda__container > h2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.ayuda__search{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.ayuda__search > input{
+    width: 85%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 25%);
+    -webkit-box-shadow: 0 0 0 1px rgb(0 0 0 / 25%);
+    border: 0;
+}
+
+.ayuda__search > button{
+    width: 13%;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(71,154,209,.15);
+    border-color: transparent;
+    color: #009ee3;
+}
+
+.blocks{
+    background-color: white;
+    display: flex;
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
+    border-left-color: white;
+    border-left-width: 4px ;
+    border-left-style: solid;
+}
+
+.blocks:hover{
+    border-left-color: #009ee3;
+}
+
+.blocks span{
+    padding: 7px 10px 10px 11.5px;
+    border: 1px solid rgba(0,0,0,.05);
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.blocks div h3{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.blocks div{
+    text-align: start;
+}
+
+.blocks div h4{
+    line-height: 1.24;
+    margin-top: 4px;
+    font-size: 14px;
+    color: rgba(0,0,0,.55);
+}

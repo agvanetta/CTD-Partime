@@ -1,0 +1,117 @@
+.movements{
+    margin-top: 50px;
+    width: 80%;
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid #42494D;
+}
+
+.movements__title{
+    font-size: 30px;
+    color: rgb(29, 185, 84);
+    display: flex;
+    padding: 15px 15px 5px 30px;
+}
+
+.movements__title span{
+    padding-left: 10px;
+    color:white;
+}
+
+.movements__title2{
+    color: white;
+    font-size: 14px;
+    display: flex;
+    padding: 0px 15px 10px 30px;
+    border-bottom: 1px solid #42494D;
+}
+
+.movements__currency{
+    width: 100px;
+}
+
+.movements__details{
+    line-height: 18px;
+    font-size: 16px;
+    color: rgb(220, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 30px 8px 30px;
+}
+
+.movements__details2{
+    text-align: start;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 15px 30px;
+    color: #5AC53B;
+    font-weight:600;
+    cursor: pointer;
+}
+
+.movements__details2:hover{
+    color: #3c8328;
+    transition: .5s;
+}
+
+.movements__date{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start
+}
+
+.movements__day{
+    color: #999;
+    font-size: 14px;
+}
+
+.movements__details_text{
+    width: 100px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+}
+
+.movements__money{
+    width: 100px;
+    text-align: start;
+}
+
+.movements__type{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 30px 8px 30px;
+    border-bottom: 1px solid #42494D;
+}
+
+.movements__type div{
+    width: 70px;
+
+    text-align: start;
+}
+
+/* Responsive 
+ 480px Maxima de celulares (600)
+ 481 - 768 tablet
+ 769-1200px Monitores*/ 
+ 
+ @media screen and (max-width: 768px) {
+    .movements__currency{
+        display: none;
+    }
+    .status{
+        display: none;
+    }
+    .movements__title{
+        font-size: 20px;
+    }
+    .movements__title2{
+        padding: 5px 0px;
+    }
+ }
